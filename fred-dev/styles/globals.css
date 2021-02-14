@@ -1,5 +1,5 @@
-html{
-	font-family: 'Carter One';
+html {
+	font-family: "Carter One";
 }
 
 body {
@@ -74,6 +74,9 @@ li {
 	border-radius: 50%;
 	flex: 40px 0;
 	margin-right: 20px;
+	display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .text-placeholder {
@@ -81,6 +84,8 @@ li {
 	width: 200px;
 	height: 20px;
 	flex: 1;
+	padding: 3px;
+	padding-left: 7px;
 }
 
 .refresh {

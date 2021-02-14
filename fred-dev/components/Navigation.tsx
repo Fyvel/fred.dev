@@ -26,27 +26,27 @@ export const Navigation = () => (
 const items = [
 	{
 		id: 0,
-		icon: '',
+		icon: '🏠',
 		label: 'Home'
 	},
 	{
 		id: 1,
-		icon: '',
+		icon: '🎨',
 		label: 'Portfolio'
 	},
 	{
 		id: 2,
-		icon: '',
-		label: 'Blog'
+		icon: '📝',
+		label: 'Breadcrumbs'
 	},
 	{
 		id: 3,
-		icon: '',
+		icon: '🔥',
 		label: 'Interests'
 	},
 	{
 		id: 4,
-		icon: '',
-		label: 'Reach out'
+		icon: '👋',
+		label: 'Reach Out'
 	},
 ]

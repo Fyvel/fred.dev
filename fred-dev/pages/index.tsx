@@ -1,9 +1,8 @@
-import { useCycle, motion } from 'framer-motion';
-import React, { useRef } from 'react';
-import { MenuToggle } from '../components/MenuToggle';
-import { Navigation } from '../components/Navigation';
-import { useDimensions } from '../hooks/useDimension';
-import styles from '../styles/Home.module.css'
+import { useCycle, motion } from 'framer-motion'
+import React, { useRef } from 'react'
+import { MenuToggle } from '../components/MenuToggle'
+import { Navigation } from '../components/Navigation'
+import { useDimensions } from '../hooks/useDimension'
 
 const sidebar = {
 	open: (height = 1000) => ({
@@ -26,9 +25,9 @@ const sidebar = {
 }
 
 export default function Home() {
-	const [isOpen, toggleOpen] = useCycle(false, true);
-	const containerRef = useRef(null);
-	const { height } = useDimensions(containerRef);
+	const [isOpen, toggleOpen] = useCycle(false, true)
+	const containerRef = useRef(null)
+	const { height } = useDimensions(containerRef)
 
 	return (
 		<>
