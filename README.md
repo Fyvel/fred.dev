@@ -1,2 +1,3 @@
 # fred.dev
- Fred
+
+Written with 💓 using `Next.js` with `TypeScript` and `framer-motion`
