@@ -13,7 +13,7 @@ export default function MyApp({ Component, pageProps }) {
 				/>
 				<meta name="description" content="Description" />
 				<meta name="keywords" content="Keywords" />
-				<title>Next.js PWA Example</title>
+				<title>Fred Delage</title>
 
 				<link rel="manifest" href="/manifest.json" />
 				<link
@@ -28,7 +28,9 @@ export default function MyApp({ Component, pageProps }) {
 					type="image/png"
 					sizes="32x32"
 				/>
-				<link rel="apple-touch-icon" href="/apple-icon.png"></link>
+				<link rel="apple-touch-icon" href="/apple-icon.png" />
+				<link rel="preconnect" href="https://fonts.gstatic.com" />
+				<link href="https://fonts.googleapis.com/css2?family=Carter+One&display=swap" rel="stylesheet" />
 				<meta name="theme-color" content="#317EFB" />
 			</Head>
 			<Component {...pageProps} />
